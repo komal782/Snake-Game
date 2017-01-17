@@ -314,7 +314,7 @@ resetLoop:
 
 
 	cmp		r4, #0		// see if any lives remain
-	beq		LoseScreen	// if so end the fucking game BITCH HOE (sry relly tired forgive me senpai 						// <3	)
+	beq		LoseScreen	// if so end the game
 
 
 	ldr		r4, [r5, #16]
